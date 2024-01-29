@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        myobject={
+            name:"Darshan",
+            age:21,
+            gender:"Male",
+            mobile:9327613010,
+            cars:["BMW","Ford","Tata"]
+        }
+        console.log(myobject.cars[0]);
+        console.log(myobject.cars[1]);
+        console.log(myobject.cars[2]);
+
+        //printing using loop(all object key and value)
+        for(i in myobject){
+            console.log("Key is ",i,"and value is ",myobject[i]);
+        }
+    </script>
+</body>
+</html>
